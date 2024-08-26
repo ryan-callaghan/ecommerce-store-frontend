@@ -1,0 +1,51 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.usernamefield{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.usernamefield p{
+  align-self: center;
+  color: white;
+}
+
+.usernamefield input{
+  height: 50%;
+}
+
+.passwordfield{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.passwordfield input{
+  height: 50%;
+}
+
+.passwordfield p{
+  align-self: center;
+  color: white;
+}
+
+.form button{
+  height: 100px;
+  width: 50%;
+  align-self: center;
+  font-size: 50px;
+  border-radius: 40px;
+  background-image: linear-gradient(magenta, aqua);
+}
+
+.form button:hover{
+  transform: scale(1.05);
+  background-image: linear-gradient(aqua, magenta);
+}

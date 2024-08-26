@@ -1,0 +1,17 @@
+.togglebtn{
+    height:40px;
+    width:40px;
+    background-color: rgb(117, 32, 131);
+}
+
+.menu-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+  
+.menu-icon .bar{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+}

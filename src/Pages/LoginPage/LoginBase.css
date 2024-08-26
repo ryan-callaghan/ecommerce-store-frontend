@@ -1,0 +1,33 @@
+.loginbase{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width:100vw;
+    gap: 50px;
+    background-color: rgb(59, 59, 72);
+}
+
+.loginbase h1{
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(magenta, aqua);
+}
+
+.loginbox{
+    height: 60%;
+    width: 30%;
+    justify-self: center;
+    align-items: center;
+    justify-items:center;
+    border: 5px solid white;
+    border-radius:15px;
+}
+
+.msg button:hover{
+    transform: scale(1.05);
+}

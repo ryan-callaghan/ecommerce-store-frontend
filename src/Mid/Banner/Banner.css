@@ -1,0 +1,33 @@
+.banner{
+    display: flex;
+    height: 30%;
+    width: 50%;
+    margin: auto;
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba (255, 0, 0, 0.5);
+}
+
+.banner button{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:50px;
+    border-radius: 20px;
+    background-image: linear-gradient(aqua, magenta);
+    transition: 0.1s ease-in;
+}
+
+.banner button:hover {
+    background-image: linear-gradient(aqua, magenta);
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); 
+    transform: scale(1.05); 
+}
+
+.banner h2{
+    font-size: 15px;
+}
+

@@ -1,0 +1,14 @@
+.midcontainer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(59, 59, 72);
+    background-image: url("C:\Users\ryanc\Downloads\hoodies.webp");
+}
+
+.midcontainer img{
+    height: 90%;
+    width: 100%;
+}

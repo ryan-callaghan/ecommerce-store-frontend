@@ -1,0 +1,20 @@
+.inventorycontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 50vh;
+    width: 100vw;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: auto;
+    background-color: rgb(69, 69, 82);
+    color: white;
+}
+
+.inventorycontainer h1{
+    color: black;
+    width: 100%;
+    text-align: center;
+}
